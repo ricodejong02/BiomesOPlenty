@@ -29,7 +29,7 @@ public class BlockBamboo extends Block implements IPlantable
 		this.setHardness(0.2F);
 		this.setStepSound(Block.soundTypeWood);
 		
-		this.setTickRandomly(true);
+		this.setTickRandomly(false);
 		
 		this.setCreativeTab(BiomesOPlenty.tabBiomesOPlenty);
 	}
